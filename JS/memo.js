@@ -9,6 +9,14 @@ var year = new Date().getFullYear();
 var month = new Date().getMonth() + 1; //0始まりなので。
 //現在の日を取得し、dayに入れる
 var day = new Date().getDate();
+
+//xx時を取得しhourに入れる
+var hour = new Date().getHours();
+//xx分を取得しminutesに入れる
+var minutes = new Date().getMinutes();
+//xx秒を取得しsecondsに入れる
+var seconds = new Date().getSeconds();
+
 //現在の曜日の数値を取得し、DayOfTheWeekNumberに入れる
 var DayOfTheWeekNumber = new Date().getDay();
 

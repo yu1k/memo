@@ -26,3 +26,7 @@ var DayOfTheWeek = getDayOfTheWeek();
 
 //現在の曜日を取得する(英語の曜日)
 var JpDayOfTheWeek = getJpDayOfTheWeek();
+
+//文字列として宣言された数字を、整数値に変換する関数
+let a = "100";
+let result = parseInt(a);

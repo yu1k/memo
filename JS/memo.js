@@ -30,3 +30,7 @@ var JpDayOfTheWeek = getJpDayOfTheWeek();
 //文字列として宣言された数字を、整数値に変換する関数
 let a = "100";
 let result = parseInt(a);
+
+//変数名と値を同時に出力できるからデバッグ時に便利
+let hoge = 100;
+console.log({hoge});

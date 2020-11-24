@@ -34,3 +34,6 @@ let result = parseInt(a);
 //変数名と値を同時に出力できるからデバッグ時に便利
 let hoge = 100;
 console.log({hoge});
+
+//コンピュータで扱えるNumberの型の最大値を出力
+console.log(Number.MAX_SAFE_INTEGER);
